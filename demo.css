@@ -1,0 +1,71 @@
+.myfood{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: sticky;
+    top:0%;
+}
+.items{
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 20% 20% 20% 20%;
+    text-align: center;
+    grid-row-gap: 50px;
+    margin-top: 25px;
+    justify-content: center;
+}
+img{
+    height: 400px;
+    width: 300px;
+}
+.scroll{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+
+#id1, #id2, #id3, #id4, #id5{
+   margin-right: 20px;
+   margin-left: 20px;
+   
+}
+#id1:hover, #id2:hover, #id3:hover, #id4:hover, #id5:hover{
+    color: white;
+    background-color: black;
+  font-size: 18px;
+ }
+ .chef{
+    text-align: center;
+ }
+ a{
+    color: black;
+ }
+ .footer{
+    display: flex;
+    justify-content: space-evenly;
+    
+ }
+ .bp, .bp1{
+    display: flex;
+ }
+ .tag2{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 5px;
+    
+ }
+ .tag{
+    background-color: black;
+    color: white;
+    font-size: small;
+    padding: 8px;
+ }
